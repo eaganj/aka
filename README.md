@@ -30,3 +30,12 @@ Example (fish shell):
     
     # now in /path/to/some-alias/target:
     $
+
+# Install
+
+1. Clone this repository
+2. Add aka to your path.  For example, if `~/bin` is in your path:
+     * `cd ~/bin && ln -s /path/to/aka.swift aka`
+    * -or-
+    * `mv aka.swift ~/bin/aka`
+3. Make sure `aka` is executable: `chmod +x /path/to/aka`
